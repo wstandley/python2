@@ -11,7 +11,7 @@ root.title("Joke")
 root.geometry("300x150")
 
 # Add a label with the joke setup
-joke_label = tk.Label(root, text="Wanna hear a construction joke?")
+joke_label = tk.Label(root, text="Want to hear a construction joke?")
 joke_label.pack(pady=20)
 
 # Define the function to show the punchline
