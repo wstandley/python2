@@ -11,16 +11,16 @@ root.title("Joke")
 root.geometry("300x150")
 
 # Add a label with the joke setup
-joke_label = tk.Label(root, text="Why did the chicken cross the road?")
+joke_label = tk.Label(root, text="Wanna hear a construction joke?")
 joke_label.pack(pady=20)
 
 # Define the function to show the punchline
 def show_punchline():
-    messagebox.showinfo("Punchline", "To get to the other side 🥁")
+    messagebox.showinfo("Punchline", "Too bad, I'm still working on it 🥁")
     root.destroy()
 
 # Add a button to show the punchline
-punchline_button = tk.Button(root, text="Show Punchline", command=show_punchline)
+punchline_button = tk.Button(root, text="Yes", command=show_punchline)
 punchline_button.pack(pady=10)
 
 # Run the application
